@@ -3,9 +3,9 @@ SISTEMA WEB DE CONTROLE DE CHAMADOS PARA EQUIPES DE SUPORTE TÉCNICO
 
 Um sistema web para registro, edição, exclusão e exportação de chamados de suporte técnico. Desenvolvido com HTML, CSS e JavaScript, oferece funcionalidades tanto para administradores quanto para usuários comuns, com controle de acesso, filtros dinâmicos e modo noturno.
 
-Funcionalidades
-Login com múltiplos usuários
-Acesso por autenticação. Usuários cadastrados podem abrir chamados; o administrador tem permissões extras para editar e excluir.
+Funcionalidades:
+Login com múltiplos usuários;
+acesso por autenticação; Usuários cadastrados podem abrir chamados; o administrador tem permissões extras para editar e excluir.
 
 Usuários de exemplo:
 
