@@ -10,33 +10,27 @@ Acesso por autenticação. Usuários cadastrados podem abrir chamados; o adminis
 Usuários de exemplo:
 
 admin / 1234
-
 Debora / deb@2024
-
 Dariane / dar#321
-
 Marli / marli@789
-
 Jaqueline / jaq!456
-
 Ana Paula / anaP@2025
-
 Daniel / daniel#852
 
-Abertura de chamados
+-Abertura de chamados
 Cadastro de chamados com nome do solicitante, descrição do problema e prioridade (baixa, média, alta).
 
-Filtros por status e prioridade
+-Filtros por status e prioridade
 Visualização dos chamados abertos ou finalizados, com opção de filtro por prioridade.
 
-Edição e exclusão de chamados (admin)
+-Edição e exclusão de chamados (admin)
 O administrador pode editar e excluir chamados finalizados, desde que justifique com um motivo (mínimo de 20 caracteres).
 
-Exportação de chamados
+-Exportação de chamados
 Possibilidade de exportar os chamados em formato CSV com um clique.
 
-Modo Noturno
+-Modo Noturno
 Alternância entre visual claro e escuro para melhor usabilidade.
 
-Validação e segurança básica
+-Validação e segurança básica
 Validação de campos obrigatórios e bloqueio de exclusão de chamados abertos.
