@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Estoque</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Tela de Login -->
+  <div id="loginScreen" class="container">
+    <h1>Login</h1>
+    <input type="text" id="username" placeholder="Usuário" />
+    <input type="password" id="password" placeholder="Senha" />
+    <button onclick="login()">Entrar</button>
+  </div>
+
+  <!-- Sistema de Estoque (inicialmente oculto) -->
+  <div id="inventorySystem" class="container hidden">
+    <h1>Sistema de Estoque</h1>
+    <input type="text" id="itemName" placeholder="Nome do item" />
+    <input type="number" id="itemQuantity" placeholder="Quantidade" min="1" />
+    <button onclick="addItem()">Adicionar Item</button>
+    <ul id="inventoryList"></ul>
+    <button onclick="logout()" class="logout">Sair</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
