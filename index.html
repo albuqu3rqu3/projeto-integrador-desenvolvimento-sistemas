@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema de Controle de Chamados</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="btnModoNoturno">🌙</button>
+
+  <div id="loginContainer">
+  <form id="formLogin">
+    <h2>Login</h2>
+    <input type="text" id="usuario" placeholder="Usuário" required>
+    <input type="password" id="senha" placeholder="Senha" required>
+    <button type="submit">Entrar</button>
+    <a href="#" id="esqueciSenha" style="display:block; margin-top:10px; text-align:center; color:#2d6cdf; text-decoration:underline; font-size:0.98rem;">Esqueci minha senha</a>
+  </form>
+</div>  
+
+  <div id="appContainer" style="display:none;">
+    <h1>Sistema de Controle de Chamados</h1>
+    <button id="btnLogout">Sair</button>
+
+<form id="formChamado">
+  <div id="campoNome">
+    <input type="text" id="nome" placeholder="Nome do solicitante" required><br>
+  </div>
+  <input type="text" id="problema" placeholder="Descrição do problema" required><br>
+  <select id="prioridade" required>
+    <option value="">Selecione a prioridade</option>
+    <option value="Baixa">Baixa</option>
+    <option value="Média">Média</option>
+    <option value="Alta">Alta</option>
+  </select><br>
+  <button type="submit">Abrir Chamado</button>
+</form>
+
+    <div id="filtros">
+      <label for="filtroStatus">Status:</label>
+      <select id="filtroStatus">
+        <option value="">Todos</option>
+        <option value="Aberto">Abertos</option>
+        <option value="Finalizado">Finalizados</option>
+      </select>
+
+      <label for="filtroPrioridade">Prioridade:</label>
+      <select id="filtroPrioridade">
+        <option value="">Todas</option>
+        <option value="Baixa">Baixa</option>
+        <option value="Média">Média</option>
+        <option value="Alta">Alta</option>
+      </select>
+    </div>
+
+    <div id="botoesExportacao">
+      <button id="btnExportar">Exportar para CSV</button>
+    </div>
+
+    <table id="tabelaChamados">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Problema</th>
+          <th>Prioridade</th>
+          <th>Data/Hora</th>
+          <th>Status</th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
