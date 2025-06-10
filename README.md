@@ -9,13 +9,13 @@ Acesso por autenticação. Usuários cadastrados podem abrir chamados; o adminis
 
 Usuários de exemplo:
 
-admin / 1234
-Debora / deb@2024
-Dariane / dar#321
-Marli / marli@789
-Jaqueline / jaq!456
-Ana Paula / anaP@2025
-Daniel / daniel#852
+ admin / 1234
+ Debora / deb@2024
+ Dariane / dar#321
+ Marli / marli@789
+ Jaqueline / jaq!456
+ Ana Paula / anaP@2025
+ Daniel / daniel#852
 
 -Abertura de chamados
 Cadastro de chamados com nome do solicitante, descrição do problema e prioridade (baixa, média, alta).
